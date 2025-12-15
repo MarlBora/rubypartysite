@@ -65,3 +65,23 @@ body {
   gap: 25px;
   margin-top: 20px;
 }
+
+/* Kart hover efekti */
+.event-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Buton hover efekti */
+.btn {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #ff3b3b;
+  transform: scale(1.05);
+}
